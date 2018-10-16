@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  kafka:
+  - apiVersion: v1
+    appVersion: 4.1.2
+    created: 2018-10-16T20:08:04.501324498Z
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 863b5340146dc0fa38421e3e5f8ca3c492069fabfea578861b33414e26e77446
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: sundhar.sai@springml.com
+      name: sundhar
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - http://127.0.0.1:8879/kafka-0.1.2.tgz
+    version: 0.1.2
+generated: 2018-10-16T20:08:04.499131105Z
